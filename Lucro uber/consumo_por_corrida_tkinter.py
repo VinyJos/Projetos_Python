@@ -1,15 +1,10 @@
 '''Programa versão 2, para saber o lucro de corridas Uber, tirando gastos com combustível'''
-from ast import Try
-from ctypes.wintypes import SIZE
-from sys import builtin_module_names
-from turtle import color
-from numpy import size
 import requests
 from tkinter import *
 import tkinter.font as tkFont
 
 
-janela = Tk() # janela 
+janela = Tk() #Janela
 
 def botao_click ():
     print('Batao click')
